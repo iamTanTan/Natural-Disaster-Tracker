@@ -1,6 +1,8 @@
 import Map from './components/Map';
 import Header from './components/Header'
 import { useState, useEffect } from 'react'
+import Legend from './components/Legend';
+import Loader from './components/Loader';
 
 
 function App() {
@@ -25,8 +27,9 @@ function App() {
   // App component
   return (
     <div>
-    <Header />
-      { !loading ? <Map eventData={eventData} /> : <h1>Loading...</h1> }
+      
+      { !loading ? <div><Header /><Map eventData={eventData} /> <Legend /></div> : <Loader />}
+     
     </div>
   );
 }

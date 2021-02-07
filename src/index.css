@@ -5,7 +5,7 @@ body {
 
 .header {
   padding: 10px;
-  background-color: darkgrey;
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   position: fixed;
   top: 0;
@@ -38,6 +38,16 @@ body {
   color: blue;
 }
 
+.volcano-location-icon {
+  font-size: 2rem;
+  color: maroon;
+}
+
+.iceberg-location-icon {
+  font-size: 2rem;
+  color: darkblue;
+}
+
 /* Location Info Display */
 
 .location-info {
@@ -60,4 +70,29 @@ body {
 
 .location-info li {
   padding: 5px 0;
+}
+
+/* Legend Display */
+.legend {
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
+  width: 150px;
+  min-height: 150px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  z-index: 100;
+}
+
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.legend li {
+  padding: 5px 0;
+ 
 }
