@@ -1,3 +1,6 @@
+# This project is inspired by bradtraversy's wildfire-tracker app
+ Visit his repository at [https://github.com/bradtraversy/wildfire-tracker](https://github.com/bradtraversy/wildfire-tracker)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
