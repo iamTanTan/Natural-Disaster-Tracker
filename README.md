@@ -1,9 +1,9 @@
 
-# Natuural Disaster Tracker
+# Natural Disaster Tracker
 
 > This is a React app to track natural disasters and plot them on a Google map.
 
-# This project is inspired by bradtraversy's wildfire-tracker app
+## This project is inspired by bradtraversy's wildfire-tracker app
  Visit his repository at [https://github.com/bradtraversy/wildfire-tracker](https://github.com/bradtraversy/wildfire-tracker)
 
 
